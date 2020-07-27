@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    padding: 20px;
+}
+.main_container {
+    display: flex;
+    background: #ffffff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+aside {
+    background: #1e2939;
+    color: #ffffff;
+    padding-top: 40px;
+}
+aside img {
+    width: 370px;
+}
+aside ul {
+    margin-left: 15px;
+}
+aside li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;;
+}
+aside li span {
+    color: #ffffff;
+}
+.contacts, .tech_skills, .soft_skills {
+    padding-left: 40px;
+    margin-top: 57px;
+}
+.contacts a {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about_me {
+    padding: 108px 89px;
+}
