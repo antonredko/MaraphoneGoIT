@@ -16,7 +16,7 @@ body {
 aside {
     background: #1e2939;
     color: #ffffff;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 aside img {
     width: 370px;
@@ -24,26 +24,47 @@ aside img {
 aside ul {
     margin-left: 15px;
 }
-aside li {
+aside li,
+.contacts a,
+.contacts span {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #ff6b08;;
+}
+aside li {
+    color: #ff6b08;
 }
 aside li span {
-    color: #ffffff;
+    color: #d8dadd;
 }
-.contacts, .tech_skills, .soft_skills {
+.contacts,
+.tech_skills,
+.soft_skills {
     padding-left: 40px;
     margin-top: 57px;
 }
-.contacts a {
-    color: #ffffff;
-    opacity: 0.5;
-    font-size: 14px;
-    font-weight: 400;
+.contacts h3,
+.tech_skills h3,
+.soft_skills h3 {
+    font-size: 22px;
+    font-weight: 700;
     line-height: 24px;
+    margin-bottom: 20px;
 }
+.contacts span {
+    font-weight: 700;
+    margin-right: 10px;
+}
+.contacts a {
+    color: #798089;
+}
+
+
+
+
+
+
+
 .about_me {
     padding: 108px 89px;
 }
