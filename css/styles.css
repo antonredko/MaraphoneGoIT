@@ -6,10 +6,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #f5f7fa;
-    padding: 20px;
+    padding: 40px 20px;
 }
 .main_container {
     display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
     background: #ffffff;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
@@ -21,12 +23,11 @@ aside {
 aside img {
     width: 370px;
 }
-aside ul {
+aside ul, .about_me ol, .about_me ul  {
     margin-left: 15px;
 }
-aside li,
-.contacts a,
-.contacts span {
+aside li, .contacts a, .contacts span, .profession, .description, .projects li>a, .projects li>span,
+.projects li, .experience li, .education p {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -37,15 +38,11 @@ aside li {
 aside li span {
     color: #d8dadd;
 }
-.contacts,
-.tech_skills,
-.soft_skills {
+.contacts, .tech_skills, .soft_skills {
     padding-left: 40px;
     margin-top: 57px;
 }
-.contacts h3,
-.tech_skills h3,
-.soft_skills h3 {
+.contacts h3, .tech_skills h3, .soft_skills h3, .about_me h3 {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
@@ -58,13 +55,49 @@ aside li span {
 .contacts a {
     color: #798089;
 }
-
-
-
-
-
-
-
 .about_me {
     padding: 108px 89px;
+}
+.about_me>div {
+    margin-bottom: 55px;
+}
+.about_me>div:first-child {
+    margin-bottom: 65px;
+}
+.about_me h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.profession, .projects li, .education p {
+    font-weight: 700;
+}
+.description, .projects a, .projects span, .experience li {
+    color: #595959;
+}
+.about_me a {
+    text-decoration: none;
+}
+a:hover, .experience h4>span, .education h4 {
+    color: #ff6b08;
+}
+.experience h4, .education h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.experience>div {
+    margin-bottom: 25px;
+}
+.experience ul {
+    margin-top: 5px;
+}
+.period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.period span {
+    color: #000000;
 }
